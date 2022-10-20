@@ -4,7 +4,7 @@ import plotly.express as px
 st.markdown('<div style="text-align: center;"><h1>Comparing Hotel Ratings</H1></div>', unsafe_allow_html=True)
 st.markdown('<div style="text-align: center;"><p>Data Table with line_polar / Web Graph</p>', unsafe_allow_html=True)
 
-df = pd.read_csv("https://raw.githubusercontent.com/Coding-with-Adam/Dash-by-Plotly/master/Plotly_Graphs/Radar-chart/ExistingHotels_CustomerVisitsdata-1554810038262.csv")
+df = pd.read_csv("hotels_review.csv")
 st.write(df)
 
 df = df[df['Hotelid'].isin(['hotel_101','hotel_102','hotel_103'])]
