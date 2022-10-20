@@ -1,4 +1,8 @@
 # Web_LinePolar_Graph
+
+Data file is also included with this
+
+
 line_polar Visual displaying the rating of Three Hotel out of 18 Hotel in that area
 
 A Line Polar graph from plotly express is below.
